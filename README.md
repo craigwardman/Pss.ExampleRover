@@ -13,15 +13,15 @@ rover is in the bottom left corner and facing North. Assume that the square dire
 from (x, y) is (x, y+1).
 In order to control a rover, NASA sends a simple string of letters. The only commands you
 can give the rover are ‘F’,’B’,’L’ and ‘R’
-● Implement commands that move the rover forward/backward (‘F’,’B’). The rover may
+* Implement commands that move the rover forward/backward (‘F’,’B’). The rover may
 only move forward/backward by one grid point, and must maintain the same heading.
-● Implement commands that turn the rover left/right (‘L’,’R’). These commands make
+* Implement commands that turn the rover left/right (‘L’,’R’). These commands make
 the rover spin 90 degrees left or right respectively, without moving from its current
 spot.
-● Implement wrapping from one edge of the grid to another. (Pluto is a sphere after all)
-● Implement obstacle detection before each move to a new square. If a given
+* Implement wrapping from one edge of the grid to another. (Pluto is a sphere after all)
+* Implement obstacle detection before each move to a new square. If a given
 sequence of commands encounters an obstacle, the rover moves up to the last
 possible point and reports the obstacle.
 Here is an example:
-● Let's say that the rover is located at 0,0 facing North on a 100x100 grid.
-● Given the command "FFRFF" would put the rover at 2,2 facing East.
+* Let's say that the rover is located at 0,0 facing North on a 100x100 grid.
+* Given the command "FFRFF" would put the rover at 2,2 facing East.
