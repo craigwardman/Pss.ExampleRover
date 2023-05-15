@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Pss.ExampleRover.ApplicationServices\Pss.ExampleRover.ApplicationServices.csproj" />
+    <ProjectReference Include="..\Pss.ExampleRover.Domain\Pss.ExampleRover.Domain.csproj" />
+  </ItemGroup>
+
+
+</Project>
